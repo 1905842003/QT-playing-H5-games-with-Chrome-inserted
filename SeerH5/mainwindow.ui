@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>赛尔号互通版</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QGroupBox" name="groupBox">
+      <property name="title">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>菜单</string>
+    </property>
+    <widget class="QMenu" name="menu_account">
+     <property name="title">
+      <string>账号</string>
+     </property>
+     <addaction name="action_accountGroup1"/>
+     <addaction name="action_accountGroup2"/>
+     <addaction name="action_accountGroup3"/>
+    </widget>
+    <addaction name="menu_account"/>
+    <addaction name="action_setTitle"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>窗口</string>
+    </property>
+    <addaction name="action_360p"/>
+    <addaction name="action_480p"/>
+    <addaction name="action_720p"/>
+    <addaction name="action_900p"/>
+    <addaction name="action_1080p"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action_accountGroup1">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>用户组1</string>
+   </property>
+  </action>
+  <action name="action_accountGroup2">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>用户组2</string>
+   </property>
+  </action>
+  <action name="action_accountGroup3">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>用户组3</string>
+   </property>
+  </action>
+  <action name="action_720p">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>1280*720</string>
+   </property>
+  </action>
+  <action name="action_900p">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>1600*900</string>
+   </property>
+  </action>
+  <action name="action_1080p">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>1920*1080</string>
+   </property>
+  </action>
+  <action name="action_480p">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>960*540</string>
+   </property>
+  </action>
+  <action name="action_360p">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>640*360</string>
+   </property>
+  </action>
+  <action name="action_clearCache">
+   <property name="text">
+    <string>清理缓存</string>
+   </property>
+  </action>
+  <action name="action_clearData">
+   <property name="text">
+    <string>清理数据</string>
+   </property>
+  </action>
+  <action name="action_setTitle">
+   <property name="text">
+    <string>修改标题</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
